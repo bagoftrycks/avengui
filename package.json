@@ -14,7 +14,7 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "*.js": "eslint"
+    "src/**/*.js": "eslint"
   },
   "pre-commit": "lint-staged",
   "license": "MIT",
@@ -40,6 +40,7 @@
     "eslint-config-google": "^0.7.1",
     "eslint-plugin-react": "^6.4.1",
     "file-loader": "^0.9.0",
+    "generate-changelog": "git+https://github.com/bagoftrycks/generate-changelog.git",
     "gitbook-cli": "^2.3.0",
     "highlight.js": "^9.7.0",
     "html-loader": "^0.4.4",

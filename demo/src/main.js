@@ -17,6 +17,7 @@ import {
 import App from './components/app';
 
 /* ronodoc-import-start: DO NOT REMOVE */
+import Login from './pages/login';
 /* ronodoc-import-end */
 
 // Needed for onTouchTap
@@ -37,6 +38,10 @@ render((
         path="/"
     >
       {/* ronodoc-route-start: DO NOT REMOVE */}
+      <Route
+          path="login"
+          component={Login}
+      />
       {/* ronodoc-route-end */}
     </Route>
   </Router>

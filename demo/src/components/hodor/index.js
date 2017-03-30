@@ -123,7 +123,7 @@ class Hodor extends React.PureComponent {
         </div>
 
         <ClearFix>
-          <div style={{padding: '5px 30px 20px'}}>
+          <div style={{padding: '5px 30px 20px', background: '#F5F5F5'}}>
             <h3>{'Preview'}</h3>
             {children}
           </div>

@@ -1,8 +1,9 @@
 import {
-  grey100, grey300, grey500, grey900,
+  cyan500, cyan700,
+  grey100, grey300, grey500,
   white, darkBlack, fullBlack,
-  blueGrey900,
   brown900,
+  pinkA200,
 } from 'material-ui/styles/colors';
 
 import {
@@ -30,10 +31,10 @@ export default {
     desktopToolbarHeight: 50,
   },
   palette: {
-    primary1Color: grey900,
-    primary2Color: blueGrey900,
+    primary1Color: cyan500,
+    primary2Color: cyan700,
     primary3Color: brown900,
-    accent1Color: grey900,
+    accent1Color: pinkA200,
     accent2Color: grey100,
     accent3Color: grey500,
     textColor: darkBlack,
@@ -41,7 +42,7 @@ export default {
     canvasColor: white,
     borderColor: grey300,
     disabledColor: fade(darkBlack, 0.3),
-    pickerHeaderColor: grey900,
+    pickerHeaderColor: cyan500,
     clockCircleColor: fade(darkBlack, 0.07),
     shadowColor: fullBlack,
   },

@@ -1,8 +1,8 @@
 {
-  "name": "bot-ui",
+  "name": "avengui",
   "version": "0.1.0",
   "main": "lib/index.js",
-  "description": "bot-ui showcase",
+  "description": "avengui showcase",
   "scripts": {
     "test": "jest",
     "demo:run": "NODE_ENV=development node ./demo/webpack.server.js",
@@ -10,7 +10,7 @@
     "lib:build": "babel src -d lib --presets es2015,stage-1 --copy-files",
     "build": "npm run lib:build && npm run demo:build",
     "start": "npm run demo:run",
-    "lint": "./node_modules/.bin/eslint ./src/*.js ./demo/src/*.js",
+    "lint": "./node_modules/.bin/eslint ./src/**/*.js ./demo/src/**/*.js",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
@@ -76,6 +76,7 @@
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",
+    "log": "^1.4.0",
     "material-ui": "^0.16.1",
     "react": "^15.3.2",
     "react-addons-shallow-compare": "^15.3.2",
@@ -83,6 +84,7 @@
     "react-flexbox-grid": "^0.10.2",
     "react-fontawesome": "^1.4.0",
     "react-tap-event-plugin": "^2.0.1",
+    "styled-components": "^1.4.4",
     "underscore": "^1.8.3"
   }
 }

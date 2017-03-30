@@ -9,8 +9,15 @@
     "demo:build": "NODE_ENV=production ./node_modules/.bin/webpack -p --config ./demo/webpack.config.prod.js",
     "lib:build": "babel src -d lib --presets es2015,stage-1 --copy-files",
     "build": "npm run lib:build && npm run demo:build",
-    "start": "npm run demo:run"
+    "start": "npm run demo:run",
+    "lint": "./node_modules/.bin/eslint ./src/*.js ./demo/src/*.js",
+    "lint-staged": "lint-staged"
   },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "pre-commit": "lint-staged",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
@@ -43,6 +50,7 @@
     "jsxhint": "^0.15.1",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "lint-staged": "^3.4.0",
     "marked": "^0.3.6",
     "nodemon": "^1.11.0",
     "opn-cli": "^3.1.0",
@@ -50,6 +58,7 @@
     "postcss-focus": "^1.0.0",
     "postcss-loader": "^1.0.0",
     "postcss-reporter": "^1.4.1",
+    "pre-commit": "^1.2.2",
     "raw-loader": "^0.5.1",
     "react-addons-test-utils": "^15.3.2",
     "react-docgen": "^2.12.1",

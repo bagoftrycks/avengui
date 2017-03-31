@@ -5,6 +5,7 @@
   "description": "avengui showcase",
   "scripts": {
     "test": "jest",
+    "coveralls": "./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls",
     "demo:run": "NODE_ENV=development node ./demo/webpack.server.js",
     "demo:build": "NODE_ENV=production ./node_modules/.bin/webpack -p --config ./demo/webpack.config.prod.js",
     "lib:build": "babel src -d lib --presets es2015,stage-1 --copy-files",
@@ -32,6 +33,7 @@
     "chalk": "^1.1.3",
     "classnames": "^2.2.5",
     "clean-webpack-plugin": "^0.1.13",
+    "coveralls": "^2.12.0",
     "cowsay": "^1.1.8",
     "css-loader": "^0.25.0",
     "doctrine": "^1.5.0",
@@ -54,6 +56,7 @@
     "lint-staged": "^3.4.0",
     "marked": "^0.3.6",
     "nodemon": "^1.11.0",
+    "nyc": "^10.2.0",
     "opn-cli": "^3.1.0",
     "postcss-cssnext": "^2.8.0",
     "postcss-focus": "^1.0.0",

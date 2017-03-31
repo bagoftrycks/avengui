@@ -1,0 +1,395 @@
+exports[`test Login without any props setuped 1`] = `
+<div
+  className="fsESaB"
+  style={
+    Object {
+      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+      "backgroundColor": "#ffffff",
+      "borderRadius": "2px",
+      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+             0 1px 4px rgba(0, 0, 0, 0.12)",
+      "boxSizing": "border-box",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "fontFamily": "Roboto, sans-serif",
+      "muiPrepared": true,
+      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+      "zIndex": 1,
+    }
+  }>
+  <div
+    style={
+      Object {
+        "paddingBottom": 0,
+      }
+    }>
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "fontWeight": 500,
+          "muiPrepared": true,
+          "padding": 16,
+          "position": "relative",
+          "textAlign": "left",
+          "whiteSpace": "nowrap",
+        }
+      }>
+      <div
+        style={
+          Object {
+            "display": "inline-block",
+            "muiPrepared": true,
+            "paddingRight": "90px",
+            "verticalAlign": "top",
+            "whiteSpace": "normal",
+          }
+        }>
+        <span
+          style={
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "display": "block",
+              "fontSize": 15,
+              "muiPrepared": true,
+            }
+          } />
+        <span
+          style={
+            Object {
+              "color": "rgba(0, 0, 0, 0.54)",
+              "display": "block",
+              "fontSize": 14,
+              "muiPrepared": true,
+            }
+          }>
+          
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontSize": 14,
+          "muiPrepared": true,
+          "padding": 16,
+        }
+      }>
+      <form
+        onSubmit={[Function]}>
+        <div
+          className={undefined}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "cursor": "auto",
+              "display": "inline-block",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": 16,
+              "height": 48,
+              "lineHeight": "24px",
+              "muiPrepared": true,
+              "position": "relative",
+              "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "width": "100%",
+            }
+          }>
+          <div
+            style={
+              Object {
+                "bottom": 12,
+                "color": "rgba(0, 0, 0, 0.3)",
+                "muiPrepared": true,
+                "opacity": 1,
+                "position": "absolute",
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }>
+            Email address
+          </div>
+          <input
+            autoFocus={true}
+            disabled={false}
+            id="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "appearance": "textfield",
+                "backgroundColor": "rgba(0,0,0,0)",
+                "border": "none",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "cursor": "inherit",
+                "font": "inherit",
+                "height": "100%",
+                "muiPrepared": true,
+                "outline": "none",
+                "padding": 0,
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+            type="text"
+            value="" />
+          <div>
+            <hr
+              style={
+                Object {
+                  "borderBottom": "solid 1px",
+                  "borderColor": "#e0e0e0",
+                  "borderLeft": "none",
+                  "borderRight": "none",
+                  "borderTop": "none",
+                  "bottom": 8,
+                  "boxSizing": "content-box",
+                  "margin": 0,
+                  "muiPrepared": true,
+                  "position": "absolute",
+                  "width": "100%",
+                }
+              } />
+            <hr
+              style={
+                Object {
+                  "borderBottom": "solid 2px",
+                  "borderColor": "#00bcd4",
+                  "borderLeft": "none",
+                  "borderRight": "none",
+                  "borderTop": "none",
+                  "bottom": 8,
+                  "boxSizing": "content-box",
+                  "margin": 0,
+                  "muiPrepared": true,
+                  "position": "absolute",
+                  "transform": "scaleX(0)",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "width": "100%",
+                }
+              } />
+          </div>
+        </div>
+        <br />
+        <div
+          className={undefined}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "cursor": "auto",
+              "display": "inline-block",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": 16,
+              "height": 48,
+              "lineHeight": "24px",
+              "muiPrepared": true,
+              "position": "relative",
+              "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "width": "100%",
+            }
+          }>
+          <div
+            style={
+              Object {
+                "bottom": 12,
+                "color": "rgba(0, 0, 0, 0.3)",
+                "muiPrepared": true,
+                "opacity": 1,
+                "position": "absolute",
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }>
+            Password
+          </div>
+          <input
+            disabled={false}
+            id="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "appearance": "textfield",
+                "backgroundColor": "rgba(0,0,0,0)",
+                "border": "none",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "cursor": "inherit",
+                "font": "inherit",
+                "height": "100%",
+                "muiPrepared": true,
+                "outline": "none",
+                "padding": 0,
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+            type="password"
+            value="" />
+          <div>
+            <hr
+              style={
+                Object {
+                  "borderBottom": "solid 1px",
+                  "borderColor": "#e0e0e0",
+                  "borderLeft": "none",
+                  "borderRight": "none",
+                  "borderTop": "none",
+                  "bottom": 8,
+                  "boxSizing": "content-box",
+                  "margin": 0,
+                  "muiPrepared": true,
+                  "position": "absolute",
+                  "width": "100%",
+                }
+              } />
+            <hr
+              style={
+                Object {
+                  "borderBottom": "solid 2px",
+                  "borderColor": "#00bcd4",
+                  "borderLeft": "none",
+                  "borderRight": "none",
+                  "borderTop": "none",
+                  "bottom": 8,
+                  "boxSizing": "content-box",
+                  "margin": 0,
+                  "muiPrepared": true,
+                  "position": "absolute",
+                  "transform": "scaleX(0)",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "width": "100%",
+                }
+              } />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="fTigAi"
+      style={
+        Object {
+          "muiPrepared": true,
+          "padding": 8,
+          "position": "relative",
+        }
+      }>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+            "backgroundColor": "#ffffff",
+            "borderRadius": "2px",
+            "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                   0 1px 4px rgba(0, 0, 0, 0.12)",
+            "boxSizing": "border-box",
+            "color": "rgba(0, 0, 0, 0.87)",
+            "display": "inline-block",
+            "fontFamily": "Roboto, sans-serif",
+            "marginRight": 8,
+            "minWidth": "100%",
+            "muiPrepared": true,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+          }
+        }>
+        <button
+          disabled={false}
+          href={undefined}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          onTouchTap={[Function]}
+          style={
+            Object {
+              "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+              "backgroundColor": "#00bcd4",
+              "border": 10,
+              "borderRadius": 2,
+              "boxSizing": "border-box",
+              "cursor": "pointer",
+              "display": "inline-block",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "inherit",
+              "fontWeight": "inherit",
+              "height": 36,
+              "lineHeight": "36px",
+              "margin": 0,
+              "muiPrepared": true,
+              "outline": "none",
+              "padding": 0,
+              "position": "relative",
+              "textAlign": "center",
+              "textDecoration": "none",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "verticalAlign": null,
+              "width": "100%",
+            }
+          }
+          tabIndex={0}
+          type="button">
+          <div
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}>
+            <div
+              style={
+                Object {
+                  "backgroundColor": false,
+                  "borderRadius": 2,
+                  "height": 36,
+                  "muiPrepared": true,
+                  "top": 0,
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                }
+              }>
+              <span
+                style={
+                  Object {
+                    "color": "#ffffff",
+                    "fontSize": 14,
+                    "fontWeight": 500,
+                    "letterSpacing": 0,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "opacity": 1,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "position": "relative",
+                    "textTransform": "uppercase",
+                    "userSelect": "none",
+                  }
+                }>
+                Log In
+              </span>
+            </div>
+          </div>
+        </button>
+      </div>
+      <hr
+        style={
+          Object {
+            "backgroundColor": "#e0e0e0",
+            "border": "none",
+            "height": 1,
+            "margin": 0,
+            "marginLeft": 0,
+            "marginRight": 8,
+            "marginTop": -1,
+            "muiPrepared": true,
+          }
+        } />
+    </div>
+  </div>
+</div>
+`;

@@ -222,6 +222,7 @@ class Login extends React.Component {
         <CardText>
           <form onSubmit={this.handleSubmit}>
             <TextField
+                id="email"
                 autoFocus
                 errorText={emailError}
                 errorStyle={{ textAlign: 'left' }}
@@ -232,6 +233,7 @@ class Login extends React.Component {
             />
             <br />
             <TextField
+                id="password"
                 errorText={passwordError}
                 errorStyle={{ textAlign: 'left' }}
                 fullWidth

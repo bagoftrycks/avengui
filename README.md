@@ -11,3 +11,16 @@
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
 # Avengui
+
+**Avengui** is a set of React Components based on [material-ui](http://www.material-ui.com).
+
+We want to share *component of components*.
+We means that we are not gonna release a `button` component but
+a component that can be reused accross `web application`.
+
+Take example of the `login box`.
+It can be reused on many applications.
+Its a component formed by multiple other components (input, button, etc..).
+
+**Avengui** is going to be used internally for our main application **Bag of Trycks**
+which is currently on *heavy-development*.

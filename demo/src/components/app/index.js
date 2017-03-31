@@ -15,6 +15,9 @@ import appPackage from '../../../../package.json';
 import AppTheme from './theme';
 import AppBarCustom from './AppBarCustom';
 import SideNavCustom from './SideNavCustom';
+import Markdownothor from '../markdownothor';
+
+import readme from '../../../../README.md';
 
 import './main.css';
 
@@ -131,7 +134,9 @@ class App extends React.Component {
 
             {/* --- Main Content --- */}
             <div style={Object.assign({}, _style.left, _style.content)}>
-              {children}
+              {children ? children : (
+                <Markdownothor text={readme} />
+              )}
             </div>
           </div>
         </DocumentTitle>

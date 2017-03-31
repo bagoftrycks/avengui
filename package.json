@@ -74,7 +74,7 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
-    "webpack-dashboard": "git+ssh://git@github.com/bagoftrycks/webpack-dashboard.git",
+    "webpack-dashboard": "git+https://git@github.com/bagoftrycks/webpack-dashboard.git",
     "webpack-dev-server": "^1.16.2",
     "webpack-load-plugins": "^0.1.2"
   },

@@ -22,12 +22,13 @@
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
     "babel-jest": "^16.0.0",
     "babel-loader": "^6.2.5",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-polyfill": "^6.16.0",
-    "babel-eslint": "^7.0.0",
     "babel-preset-es2015": "^6.18.0",
+    "babel-preset-flow": "^6.23.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-1": "^6.16.0",
     "chalk": "^1.1.3",
@@ -42,6 +43,7 @@
     "eslint-config-google": "^0.7.1",
     "eslint-plugin-react": "^6.4.1",
     "file-loader": "^0.9.0",
+    "flow-bin": "^0.42.0",
     "generate-changelog": "git+https://github.com/bagoftrycks/generate-changelog.git",
     "gitbook-cli": "^2.3.0",
     "highlight.js": "^9.7.0",
@@ -79,6 +81,7 @@
     "webpack-load-plugins": "^0.1.2"
   },
   "dependencies": {
+    "deep-equal": "^1.0.1",
     "flexboxgrid": "^6.3.1",
     "log": "^1.4.0",
     "material-ui": "^0.16.1",
